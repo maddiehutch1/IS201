@@ -1,0 +1,55 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: #555555;
+    background-color: blanchedalmond;
+}
+
+/* p {
+    font-size: 10px;
+    font-style: italic;
+} */
+
+a {
+    font-size: 10px;
+    color: maroon;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Custom Styles */
+.bold {
+    font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.homebg {
+    background-image: url('../images/mystery_background.jpg');
+    /* background-position: top right; */
+}
+
+/* Padding and spacing demo */
+.box1 {
+    border-width: 3px;
+    border-style: solid;
+    border-color: red;
+}
+
+.box2 {
+    padding: 5px;
+}
+
+.box3 {
+    margin: 50px;
+}
